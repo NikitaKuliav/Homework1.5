@@ -22,5 +22,24 @@ public class Main {
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
 
+        // Задача 2
+
+        System.out.println();
+
+        int min = 200_001;
+        int max = 0;
+
+        for (int current : arr) {
+            if (current < min) {
+                min = current;
+            }
+            if (current > max) {
+                max = current;
+            }
+        }
+
+        System.out.println("Минимальная сумма трат за день составила " + min + " рублей.");
+        System.out.println("Максимальная сумма трат за день составила " + max + " рублей.");
+
     }
 }
