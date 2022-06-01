@@ -41,5 +41,12 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей.");
         System.out.println("Максимальная сумма трат за день составила " + max + " рублей.");
 
+        // Задача 3
+
+        float average = (float) sum / arr.length;
+
+        System.out.println();
+        System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
+
     }
 }
